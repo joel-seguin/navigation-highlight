@@ -1,0 +1,44 @@
+h1 h2 {
+  font: Sigmar One;
+  text-align: center;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  border: .3em;
+  border-radius: 4px;
+  padding: .5em;
+  background-color: #b2a212;
+
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: .3em;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+  padding: .75em;
+}
+
+.red {
+  background-color: #cc1465;
+}
