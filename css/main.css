@@ -1,27 +1,71 @@
-h1 h2 {
-  font: Sigmar One;
+* {
+  color: #2f2d13;
+}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+h1,
+h2 {
   text-align: center;
+  margin: 0;
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  margin: .3em;
+  text-align: left;
 }
 
 header {
   background-color: #ffe500;
+  padding-top: 0;
+  padding: .75em;
 }
 
 ul {
   text-align: center;
-}
-
-li {
-  display: inline-block;
-  border: .3em;
-  border-radius: 4px;
-  padding: .5em;
-  background-color: #b2a212;
-
-}
-
-body {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  border: 1px solid #b2a212;
+  border-radius: 4px;
+  padding: .2em .3em .3em;
+  background-color: #b2a212;
+  font-size: 1.125rem;
+}
+
+li a:hover {
+  border: 1px solid #cc1465;
+  border-radius: 4px;
+  background-color: #cc1465;
 }
 
 main {
@@ -30,15 +74,21 @@ main {
 
 a {
   text-decoration: none;
-  color: #f2f2f2
+  color: #f2f2f2;
 }
 
 footer {
   text-align: center;
   background-color: #ffe500;
   padding: .75em;
+  font-size: .75rem;
 }
 
-.red {
-  background-color: #cc1465;
+.current {
+  border: 1px solid #b20953;
+  background-color: #b20953;
+}
+
+img {
+  width: 100%;
 }
